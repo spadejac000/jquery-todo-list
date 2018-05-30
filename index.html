@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="wrapper">
+      <form>
+        <label>Thing:<input class="userInput" name="user-comment"></label>
+        <button class="addThing">Add That Thing</button>
+      </form>
+      <div class="comment-insert">
+
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

@@ -1,0 +1,46 @@
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 0px;
+}
+
+.formData,
+.deleteButton {
+  display: inline-block;
+  margin-left: 3em;
+}
+
+.container {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.wrapper {
+  border: 2px solid black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: lightblue;
+}
+
+input {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+label,
+input,
+.addThing,
+.item,
+.deleteButton {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.addThing {
+  cursor: pointer;
+}
